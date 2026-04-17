@@ -1,0 +1,38 @@
+body {
+  background-color: aqua;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 320px;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#page3 {
+  margin-top: 100px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orangered;
+  position: fixed;
+  font-size: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image {
+  width: 70vw;
+  height: 30vw;
+  background-color: yellowgreen;
+  background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=2210&quality=70);
+}
