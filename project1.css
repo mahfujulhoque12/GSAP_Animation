@@ -1,0 +1,7 @@
+h2 span {
+  display: inline-block;
+}
+
+h2 {
+  overflow: hidden;
+}
